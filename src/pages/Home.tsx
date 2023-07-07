@@ -48,17 +48,17 @@ const Home = () => {
 
           <MovieSliderHeader
             title={"Popular movies"}
-            href={"/movies/categories?category=popular"}
+            href={"/categories?category=popular"}
           />
           <MovieSlider movieData={popularMoviesData} />
           <MovieSliderHeader
             title={"Upcoming movies"}
-            href={"/movies/categories?category=upcoming"}
+            href={"/categories?category=upcoming"}
           />
           <MovieSlider movieData={upcomingMoviesData} />
           <MovieSliderHeader
             title={"Top rated"}
-            href={"/movies/categories?category=top-rated"}
+            href={"/categories?category=top-rated"}
           />
           <MovieSlider movieData={topRatedMoviesData} />
         </Component>
